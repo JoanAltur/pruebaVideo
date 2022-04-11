@@ -10,7 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.PruebaVideo">
         <activity
-            android:name=".ApartadoVideoActivity"
+            android:name=".ChatActivity"
+            android:exported="false" />
+        <activity
+            android:name=".VideoActivity"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

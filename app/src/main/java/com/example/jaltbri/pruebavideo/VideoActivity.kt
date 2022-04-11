@@ -14,7 +14,7 @@ import com.google.gson.Gson
 import com.amazonaws.services.chime.sdk.*
 
 
-class ApartadoVideoActivity : AppCompatActivity() {
+class VideoActivity : AppCompatActivity() {
     //variables de la vista
     lateinit var binding : ActivityApartadoVideoBinding
     lateinit var button: Button
